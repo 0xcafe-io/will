@@ -34,7 +34,7 @@ func writeEventsBatch(w io.Writer, events []string) (err error) {
 ```
 
 You can use `will.CaptureErr()` multiple times in a single function.   
-It uses `errors.Join()` from standard library to merge errors, therefore `errors.Is()` its friends will work as
+It uses `errors.Join()` from the standard library to merge errors, therefore `errors.Is()` and its friends will work as
 expected.
 
 
